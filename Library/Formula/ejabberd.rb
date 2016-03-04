@@ -288,10 +288,10 @@ class Ejabberd < Formula
       user = $1
       repo = $2
 
-      inreplace deps_file,
-        # match https://github.com, git://github.com, and git@github
-        %r{(?:https://|git(?:://|@))github\.com[:/]#{user}/#{repo}(?:\.git)?},
-        r.cached_download
+      # inreplace deps_file,
+      #   # match https://github.com, git://github.com, and git@github
+      #   %r{(?:https://|git(?:://|@))github\.com[:/]#{user}/#{repo}(?:\.git)?},
+      #   r.cached_download
     end
 
     args = ["--prefix=#{prefix}",
