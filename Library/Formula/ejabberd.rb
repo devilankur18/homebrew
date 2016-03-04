@@ -3,8 +3,8 @@ class Ejabberd < Formula
   homepage "https://www.ejabberd.im"
 
   stable do
-    url "https://www.process-one.net/downloads/ejabberd/16.01/ejabberd-16.01.tgz"
-    sha256 "e2cc479d5870539b2e6756690b227969c88a541d464d1fc6e1cbf7270ad7d681"
+    url "https://www.process-one.net/downloads/ejabberd/16.02/ejabberd-16.02.tgz"
+    sha256 "98388050864d8c3717c581ece5381c473cd89729b7d0c2ee059735e9ff892a7a"
 
     resource "lager" do
       url "https://github.com/basho/lager.git",
